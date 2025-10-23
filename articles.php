@@ -419,7 +419,7 @@
     <!-- Right: Contact + Socials -->
     <div class="footer-right">
       <h4>Contact Us</h4>
-      <p><a href="mailto:support@anonconnect.org">Safespace@gmail.com</a></p>
+      <p><a href="mailto:support@anonconnect.org">safespace@gmail.com</a></p>
 
       <div class="social-icons">
         <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>

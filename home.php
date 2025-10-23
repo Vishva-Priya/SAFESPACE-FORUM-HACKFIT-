@@ -445,7 +445,7 @@
         <!-- Event 2 -->
         <div class="event-card" data-bs-toggle="tooltip"
           title="An open sharing circle where students connect through shared experiences.">
-          <img src="media/event2.jpg" alt="Peer Support Meetup">
+          <img src="media/event2.jpeg" alt="Peer Support Meetup">
           <h5>Peer Support Meetup</h5>
           <p>Connect and share your story.</p>
         </div>
@@ -461,7 +461,7 @@
         <!-- Event 4 -->
         <div class="event-card" data-bs-toggle="tooltip"
           title="A week-long celebration focusing on awareness, counseling, and kindness.">
-          <img src="media/event4.jpg" alt="Mental Health Week">
+          <img src="media/event4.jpeg" alt="Mental Health Week">
           <h5>Mental Health Week</h5>
           <p>Let’s end the stigma together.</p>
         </div>
@@ -469,7 +469,7 @@
         <!-- Event 5 -->
         <div class="event-card" data-bs-toggle="tooltip"
           title="Dedicated day to pamper your mind and soul through art, music, and calm.">
-          <img src="media/event5.jpg" alt="Self-Care Sunday">
+          <img src="media/event5.jpeg" alt="Self-Care Sunday">
           <h5>Self-Care Sunday</h5>
           <p>Focus on your peace and wellbeing.</p>
         </div>
@@ -486,7 +486,7 @@
           <p>Connect and share your story.</p>
         </div>
         <div class="event-card" data-bs-toggle="tooltip" title="Join our yoga and laughter therapy sessions to release stress and refresh your energy.">
-          <img src="media/event3.jpg" alt="Stress Relief Session">
+          <img src="media/event3.jpeg" alt="Stress Relief Session">
           <h5>Stress Relief Session</h5>
           <p>Unwind your mind through laughter.</p>
         </div>
@@ -542,16 +542,48 @@
 
 
   <!-- About -->
-  <section class="about">
-    <div class="container text-center">
-      <h2>Why Anonymity Matters 💬</h2>
-      <p class="mt-3 mx-auto" style="max-width: 800px;">
-        Many students hesitate to open up about personal struggles due to fear of judgment.
-        <b>AnonConnect</b> breaks that barrier — giving you a safe, judgment-free space to express,
-        reflect, and receive peer advice. Every voice here matters, and every message stays anonymous.
-      </p>
-    </div>
-  </section>
+ <section style="
+  background:linear-gradient(135deg,#e3f2fd,#fce4ec);
+  padding:70px 20px;
+  border-radius:20px;
+  box-shadow:0 4px 25px rgba(0,0,0,0.08);
+  margin:50px auto;
+  max-width:1000px;
+  text-align:center;
+  font-family:'Poppins',sans-serif;">
+  
+  <h2 style="
+    font-size:2.2rem;
+    font-weight:600;
+    color:#333;
+    display:inline-block;
+    position:relative;">
+    Why Anonymity Matters 💬
+    <span style="
+      position:absolute;
+      bottom:-10px;
+      left:50%;
+      width:80px;
+      height:3px;
+      background:#ff80ab;
+      transform:translateX(-50%);
+      border-radius:5px;
+      display:block;"></span>
+  </h2>
+
+  <p style="
+    font-family:'Open Sans',sans-serif;
+    font-size:1.1rem;
+    color:#555;
+    max-width:800px;
+    margin:40px auto 0;
+    line-height:1.8;">
+    Many students hesitate to open up about personal struggles due to fear of judgment.
+    <b>AnonConnect</b> breaks that barrier — giving you a safe, judgment-free space to express,
+    reflect, and receive peer advice. Every voice here matters, and every message stays anonymous.
+  </p>
+</section>
+
 
   <!-- Footer -->
   <footer class="footer">
@@ -578,7 +610,7 @@
     <!-- Right: Contact + Socials -->
     <div class="footer-right">
       <h4>Contact Us</h4>
-      <p><a href="mailto:support@anonconnect.org">Safespace@gmail.com</a></p>
+      <p><a href="mailto:support@anonconnect.org">safespace@gmail.com</a></p>
 
       <div class="social-icons">
         <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
