@@ -209,8 +209,8 @@ nav a:hover {
 
   <!-- Forum Body -->
   <div class="container py-5">
-    <div class="container py-5">
-    <h1 class="text-center mb-5 fw-bold">🫂 SafeSpace Forum</h1>
+    
+    <h1 class="text-center mb-5 fw-bold">SafeSpace Forum</h1>
     <div class="row">
       <!-- Left: Post Form -->
       <div class="col-md-4 mb-4">
