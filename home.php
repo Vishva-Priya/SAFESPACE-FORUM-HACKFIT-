@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SAFESPACE FORUM | Anonymous Student Support Platform</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
   <style>
     /* -------------------- Base layout -------------------- */
@@ -380,6 +382,9 @@
     <a class="navbar-brand" href="forum.php">Forum</a>
     <a class="navbar-brand" href="feedback.php">Feedback & Contact</a>
     <a class="navbar-brand" href="#">AI Assistance</a>
+    <a href="login.php" class="text-white ms-3" style="font-size:1.5rem;">
+      <i class="bi bi-person-circle"></i>
+    </a>
   </div>
 </nav>
 
