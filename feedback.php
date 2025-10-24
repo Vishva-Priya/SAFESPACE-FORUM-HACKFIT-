@@ -204,7 +204,7 @@ body {
     <a href="articles.php">Articles</a>
     <a href="forum1.php">Forum</a>
     <a href="feedback.php">Feedback & Contact</a>
-    <a href="#">AI Assistance</a>
+    <a href="bookpeer.php">Private chat</a>
   </div>
 </nav>
 

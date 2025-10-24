@@ -203,7 +203,7 @@ nav a:hover {
     <a class="navbar-brand" href="articles.php">Articles</a>
     <a class="navbar-brand" href="forum1.php">Forum</a>
     <a class="navbar-brand" href="feedback.php">Feedback & Contact</a>
-    <a class="navbar-brand" href="#">AI Assistance</a>
+    <a class="navbar-brand" href="bookpeer.php">Private Chats</a>
   </div>
 </nav>
 
