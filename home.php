@@ -379,7 +379,7 @@
   <a class="text-white me-4" style="position:right"><b>SafeSpace</b></a>
     <a class="navbar-brand" href="home.php">Home</a>
     <a class="navbar-brand" href="articles.php">Articles</a>
-    <a class="navbar-brand" href="forum.php">Forum</a>
+    <a class="navbar-brand" href="forum1.php">Forum</a>
     <a class="navbar-brand" href="feedback.php">Feedback & Contact</a>
     <a class="navbar-brand" href="#">AI Assistance</a>
     <a href="login.php" class="text-white ms-3" style="font-size:1.5rem;">
@@ -660,7 +660,7 @@ function submitFeedback() {
     <!-- Middle: Important links -->
     <div class="footer-center">
       <ul>
-        <li><a href="/about">About Us</a></li>
+        <li><a href="aboutus.php">About Us</a></li>
         <li><a href="/team">Meet the Team</a></li>
         <li><a href="/privacy">Privacy & Safety</a></li>
         <li><a href="/terms">Terms of Use</a></li>

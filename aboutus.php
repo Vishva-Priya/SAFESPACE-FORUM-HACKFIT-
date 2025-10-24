@@ -224,7 +224,7 @@ margin: 80px auto 80px;
     <a href="#" aria-current="page"><b>SafeSpace</b></a>
     <a href="home.php">Home</a>
     <a href="articles.php">Articles</a>
-    <a href="forum.php">Forum</a>
+    <a href="forum1.php">Forum</a>
     <a href="feedback.php">Feedback & Contact</a>
     <a href="#" aria-disabled="true" tabindex="-1">AI Assistance</a>
   </div>

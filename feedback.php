@@ -202,7 +202,7 @@ body {
     <a><b>SafeSpace</b></a>
     <a href="home.php">Home</a>
     <a href="articles.php">Articles</a>
-    <a href="forum.php">Forum</a>
+    <a href="forum1.php">Forum</a>
     <a href="feedback.php">Feedback & Contact</a>
     <a href="#">AI Assistance</a>
   </div>
