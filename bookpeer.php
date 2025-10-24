@@ -55,7 +55,7 @@ body {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background:lin
 .close:hover {opacity:1;}
 </style>
 </head>
-<body>
+<body> 
 
 <div class="container">
     <div class="header">

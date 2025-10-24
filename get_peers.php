@@ -17,7 +17,7 @@ if($result->num_rows>0){
         while($slot=$slots_result->fetch_assoc()) $slots[]=$slot;
         $row['slots']=$slots;
         $peers[]=$row;
-    }
+    } 
 }
 $conn->close();
 echo json_encode($peers);

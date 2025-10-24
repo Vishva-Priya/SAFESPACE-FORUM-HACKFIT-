@@ -10,7 +10,7 @@ $email=htmlspecialchars($data['email']);
 
 $servername="localhost";
 $username="root";
-$password="";
+$password=""; 
 $dbname="safespaceforum";
 
 $conn=new mysqli($servername,$username,$password,$dbname);
