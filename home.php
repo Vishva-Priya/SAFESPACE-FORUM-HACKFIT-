@@ -453,7 +453,7 @@
         <!-- Event 3 -->
         <div class="event-card" data-bs-toggle="tooltip"
           title="Join our yoga and laughter therapy sessions to release stress and refresh your energy.">
-          <img src="media/event3.jpg" alt="Stress Relief Session">
+          <img src="media/events3.jpeg" alt="Stress Relief Session">
           <h5>Stress Relief Session</h5>
           <p>Unwind your mind through laughter.</p>
         </div>
