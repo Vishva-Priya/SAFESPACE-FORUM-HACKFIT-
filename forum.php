@@ -984,7 +984,7 @@ nav {
     <a class="navbar-brand" href="home.php">Home</a>
     <a class="navbar-brand" href="articles.php">Articles</a>
     <a class="navbar-brand" href="forum.php">Forum</a>
-    <a class="navbar-brand" href="#">Feedback & Contact</a>
+    <a class="navbar-brand" href="feedback.php">Feedback & Contact</a>
     <a class="navbar-brand" href="#">AI Assistance</a>
   </div>
 </nav>
@@ -1275,7 +1275,7 @@ nav {
         <li><a href="/privacy">Privacy & Safety</a></li>
         <li><a href="/terms">Terms of Use</a></li>
         <li><a href="/accessibility">Accessibility</a></li>
-        <li><a href="/feedback">Send Feedback</a></li>
+        <li><a href="feedback.php">Send Feedback</a></li>
       </ul>
     </div>
 

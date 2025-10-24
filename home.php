@@ -378,7 +378,7 @@
     <a class="navbar-brand" href="home.php">Home</a>
     <a class="navbar-brand" href="articles.php">Articles</a>
     <a class="navbar-brand" href="forum.php">Forum</a>
-    <a class="navbar-brand" href="#">Feedback & Contact</a>
+    <a class="navbar-brand" href="feedback.php">Feedback & Contact</a>
     <a class="navbar-brand" href="#">AI Assistance</a>
   </div>
 </nav>
@@ -505,85 +505,142 @@
   </div>
 
   <!-- Shadow below the section -->
-  <div class="section-shadow"></div>
-</section>
+<section style="background:#f9f9f9; padding:50px 20px; font-family:'Poppins',sans-serif;">
+  <div style="
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    max-width:1100px;
+    margin:auto;
+  ">
 
-  <!-- Echoes of the Community (Discussion preview) -->
-  <div class="container my-5">
-    <h3 class="section-title mb-4">Echoes of the Community</h3>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="discussion-card fade-in">
-          <h5>"I feel lost about my career path..."</h5>
-          <p class="text-muted mt-2">💬 10 replies | 2 hours ago</p>
-        </div>
+    <!-- Card 1: Why Anonymity Matters -->
+    <div style="
+      background:linear-gradient(135deg,#e3f2fd,#fce4ec);
+      flex:1 1 450px;
+      min-width:320px;
+      max-width:500px;
+      padding:40px 25px;
+      border-radius:20px;
+      box-shadow:0 4px 25px rgba(0,0,0,0.08);
+      text-align:center;
+    ">
+      <h2 style="font-size:2rem; font-weight:600; color:#333; position:relative; display:inline-block;">
+        Why Anonymity Matters 💬
+        <span style="
+          position:absolute;
+          bottom:-10px;
+          left:50%;
+          width:80px;
+          height:3px;
+          background:#ff80ab;
+          transform:translateX(-50%);
+          border-radius:5px;
+          display:block;
+        "></span>
+      </h2>
+      <p style="font-family:'Open Sans',sans-serif; font-size:1.05rem; color:#555; margin-top:25px; line-height:1.6;">
+        Many students hesitate to open up about personal struggles due to fear of judgment.
+        <b>AnonConnect</b> breaks that barrier — giving you a safe, judgment-free space to express,
+        reflect, and receive peer advice. Every voice here matters, and every message stays anonymous.
+      </p>
+    </div>
+
+    <!-- Card 2: Feedback Card -->
+    <div style="
+      background:linear-gradient(135deg,#fce4ec,#e3f2fd);
+      flex:1 1 450px;
+      min-width:320px;
+      max-width:500px;
+      padding:40px 25px;
+      border-radius:20px;
+      box-shadow:0 4px 25px rgba(0,0,0,0.08);
+      text-align:center;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+    ">
+      <h2 style="font-size:2rem; font-weight:600; color:#333; position:relative; display:inline-block;">
+        How Was Your Day? 💬
+        <span style="
+          position:absolute;
+          bottom:-10px;
+          left:50%;
+          width:80px;
+          height:3px;
+          background:#ff80ab;
+          transform:translateX(-50%);
+          border-radius:5px;
+          display:block;
+        "></span>
+      </h2>
+
+      <p id="feedbackText" style="font-family:'Open Sans',sans-serif; font-size:1.05rem; color:#555; margin-top:25px; line-height:1.6;">
+        Choose the emoji that best describes your day 💬
+      </p>
+
+      <div id="emojis" style="margin-top:20px;">
+        <span onclick="selectEmoji(this)" style="cursor:pointer;margin:0 10px;font-size:2.5rem;transition:0.2s;">😞</span>
+        <span onclick="selectEmoji(this)" style="cursor:pointer;margin:0 10px;font-size:2.5rem;transition:0.2s;">😐</span>
+        <span onclick="selectEmoji(this)" style="cursor:pointer;margin:0 10px;font-size:2.5rem;transition:0.2s;">😊</span>
+        <span onclick="selectEmoji(this)" style="cursor:pointer;margin:0 10px;font-size:2.5rem;transition:0.2s;">😄</span>
+        <span onclick="selectEmoji(this)" style="cursor:pointer;margin:0 10px;font-size:2.5rem;transition:0.2s;">🤩</span>
       </div>
 
-      <div class="col-md-4">
-        <div class="discussion-card fade-in">
-          <h5>"Struggling to fit in at college..."</h5>
-          <p class="text-muted mt-2">💬 7 replies | 5 hours ago</p>
-        </div>
-      </div>
+      <button onclick="submitFeedback()" style="margin-top:25px; background:#ff80ab; color:white; border:none; padding:12px 30px; border-radius:30px; font-size:1rem; cursor:pointer; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:0.3s;">
+        Submit
+      </button>
 
-      <div class="col-md-4">
-        <div class="discussion-card fade-in">
-          <h5>"I failed an exam and feel worthless."</h5>
-          <p class="text-muted mt-2">💬 15 replies | 1 day ago</p>
-        </div>
+      <div id="result" style="display:none;margin-top:25px;">
+        <h3 id="chosenEmoji" style="font-size:2rem;"></h3>
+        <p id="quote" style="color:#555;font-style:italic;margin-top:10px;"></p>
       </div>
     </div>
 
-    <div class="text-center mt-4">
-      <a href="forum.php" class="btn btn-main">View All Discussions</a>
-    </div>
   </div>
-
-
-
-  <!-- About -->
- <section style="
-  background:linear-gradient(135deg,#e3f2fd,#fce4ec);
-  padding:70px 20px;
-  border-radius:20px;
-  box-shadow:0 4px 25px rgba(0,0,0,0.08);
-  margin:50px auto;
-  max-width:1000px;
-  text-align:center;
-  font-family:'Poppins',sans-serif;">
-  
-  <h2 style="
-    font-size:2.2rem;
-    font-weight:600;
-    color:#333;
-    display:inline-block;
-    position:relative;">
-    Why Anonymity Matters 💬
-    <span style="
-      position:absolute;
-      bottom:-10px;
-      left:50%;
-      width:80px;
-      height:3px;
-      background:#ff80ab;
-      transform:translateX(-50%);
-      border-radius:5px;
-      display:block;"></span>
-  </h2>
-
-  <p style="
-    font-family:'Open Sans',sans-serif;
-    font-size:1.1rem;
-    color:#555;
-    max-width:800px;
-    margin:40px auto 0;
-    line-height:1.8;">
-    Many students hesitate to open up about personal struggles due to fear of judgment.
-    <b>AnonConnect</b> breaks that barrier — giving you a safe, judgment-free space to express,
-    reflect, and receive peer advice. Every voice here matters, and every message stays anonymous.
-  </p>
 </section>
 
+<script>
+let selectedEmoji = null;
+let feedbackSubmitted = false;
+
+const quotes = {
+  "😞": "Even the darkest night will end and the sun will rise 🌅",
+  "😐": "Every day may not be good, but there’s something good in every day 🌻",
+  "😊": "Happiness is a journey, not a destination 🌈",
+  "😄": "Your smile is contagious — keep spreading positivity ✨",
+  "🤩": "You’re shining bright today — keep being amazing 💫"
+};
+
+function selectEmoji(el) {
+  if (feedbackSubmitted) return;
+  document.querySelectorAll('#emojis span').forEach(e => {
+    e.style.transform = '';
+    e.style.filter = '';
+  });
+  el.style.transform = 'scale(1.5)';
+  el.style.filter = 'drop-shadow(0 0 10px #ff80ab)';
+  selectedEmoji = el.textContent;
+  document.querySelectorAll('#emojis span').forEach(e => e.style.pointerEvents = 'none');
+}
+
+function submitFeedback() {
+  if (!selectedEmoji) {
+    alert('Please select an emoji 😊');
+    return;
+  }
+  feedbackSubmitted = true;
+  document.getElementById('emojis').style.display = 'none';
+  document.querySelector('button').style.display = 'none';
+  document.getElementById('feedbackText').style.display = 'none';
+  document.getElementById('chosenEmoji').textContent = selectedEmoji;
+  document.getElementById('quote').textContent = quotes[selectedEmoji];
+  document.getElementById('result').style.display = 'block';
+}
+</script>
+
+</section>
 
   <!-- Footer -->
   <footer class="footer">
@@ -603,7 +660,7 @@
         <li><a href="/privacy">Privacy & Safety</a></li>
         <li><a href="/terms">Terms of Use</a></li>
         <li><a href="/accessibility">Accessibility</a></li>
-        <li><a href="/feedback">Send Feedback</a></li>
+        <li><a href="feedback.php">Send Feedback</a></li>
       </ul>
     </div>
 
